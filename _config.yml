@@ -1,5 +1,5 @@
-title: [clsite]
-description: [it's my github pages what do i even have to say about]
+title: "clsite"
+description: "it's my github pages what do i even have to say about"
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
 - jekyll-remote-theme
