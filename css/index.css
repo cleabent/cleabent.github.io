@@ -1,0 +1,41 @@
+/* M PLUS 1 Web font */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@300;400;700&display=swap');
+html, body {
+    height: auto;
+    background-color: #363636;
+    color: #efefef;
+    font-family: 'M PLUS 1', sans-serif;
+}
+footer {
+    background-color:  #1f1f1f;
+    width: 100%;
+}
+
+/* Nav */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #1f1f1f;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #efefef;
+}
+.active {
+    background-color: #efefef;
+    color: red;
+}
